@@ -16,6 +16,7 @@ body{
   height: 10vh;
   border-radius: 8px;
   padding-top: 2em;
+  padding-left: 1em;
 }
 .left-box, .left-box-1{
   width: 13.5vw;
@@ -132,4 +133,43 @@ span{
 }
 .sort p{
   padding-left: .3em;
+}
+@media(min-width: 320px) and (max-width: 767px) {
+  .left-top-box{
+    width: 80%;
+  }
+  .left-box, .left-box-1{
+    width: 80%;
+    margin-top: 3%;
+  }
+  .right{
+    margin: 10% 0 0 -2.5%;
+  }
+  .right-top{
+    width: 93%;
+  }
+  .right-top-left{
+    margin-left: -3%;
+  }
+  .suggestions{
+    margin-left: -4%;
+  }
+  .feedback{
+    width: 19vw;
+    height: 10vh;
+  }
+  .box{
+    width: 93%;
+    height: 15vh;
+    margin-top: 3%;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+  .left-top-box, .left-box, .left-box-1{
+    width: 20vw;
+  }
+  .right{
+    margin: -87.5% 0 0 27%;
+  }
 }

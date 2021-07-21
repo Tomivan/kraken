@@ -84,7 +84,7 @@ function App() {
               <p>Easier to search for a solution based on a specific stack</p>
               <p><span>Enhancement</span></p>
             </div>
-              <FontAwesomeIcon icon={faCircle} class="dot"/>
+              <FontAwesomeIcon icon={faCircle} className="dot"/>
               <p>2</p>
           </div>
           <div className="box">
@@ -97,7 +97,7 @@ function App() {
               <p>It would help people with light sensitivities and who prefer dark mode</p>
               <p><span>Feature</span></p>
             </div>
-              <FontAwesomeIcon icon={faCircle} class="dot"/>
+              <FontAwesomeIcon icon={faCircle} className="dot"/>
               <p>4</p>
           </div>
           <div className="box">
@@ -111,7 +111,7 @@ function App() {
               <p><span>Feature</span></p>
             </div>
             <div className="end">
-              <p><FontAwesomeIcon icon={faCircle} class="dot"/>1</p>
+              <p><FontAwesomeIcon icon={faCircle} className="dot"/>1</p>
             </div>
           </div>
           <div className="box">
@@ -124,7 +124,7 @@ function App() {
               <p>Images and screenshots can enhance comments on solutions</p>
               <p><span>Enhancement</span></p>
             </div>
-              <FontAwesomeIcon icon={faCircle} class="dot"/>
+              <FontAwesomeIcon icon={faCircle} className="dot"/>
               <p>2</p>
           </div>
           <div className="box">
@@ -137,7 +137,7 @@ function App() {
               <p>Stay updated on coments and solutions other people post</p>
               <p><span>Feature</span></p>
             </div>
-              <FontAwesomeIcon icon={faCircle} class="dot"/>
+              <FontAwesomeIcon icon={faCircle} className="dot"/>
               <p>3</p>
           </div>
           <div className="box">
@@ -150,7 +150,7 @@ function App() {
               <p>Challenge preview images are missing when you apply a filter</p>
               <p><span>Bug</span></p>
             </div>
-            <FontAwesomeIcon icon={faCircle} class="dot"/>
+            <FontAwesomeIcon icon={faCircle} className="dot"/>
             <p>0</p>
           </div>
         </div>
